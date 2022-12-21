@@ -19,7 +19,7 @@ class Portfolio extends Component
      */
     public function __construct()
     {
-        $this-> items =[
+        $this->items =[
             [
                 'category' => ['SQL'],
                 'title' => 'COVID Data Project',
@@ -33,8 +33,14 @@ class Portfolio extends Component
                 'link' => 'https://github.com/s-rangan/PortfolioProjects/blob/main/Movie%20Correlation%20Project.ipynb'
             ],
             [
+                'category' => ['Laravel', 'Tailwind.css', 'Alpine.js'],
+                'title' => 'Portfolio Website',
+                'image' => url('/img/projectImgs/PortfolioSite.png'),
+                'link' => 'https://github.com/s-rangan/Personal-Website'
+            ],
+            [
                 'category' => ['Unity Game Engine', 'Angular'],
-                'title' => 'Capstone Project: Virtual Tour of the Learning Factory',
+                'title' => 'Capstone Project: Virtual Lab Tour',
                 'image' => url('/img/projectImgs/LFVRTourCapstone.png'),
                 'link' => 'https://learning-factory-vr-tour.firebaseapp.com/'
             ],
@@ -42,6 +48,7 @@ class Portfolio extends Component
         
 
         $this->tabs = array_unique(Arr::flatten(Arr::pluck($this->items, 'category')));
+        sort($this->tabs);
     }
 
     /**

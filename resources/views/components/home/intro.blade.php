@@ -3,9 +3,9 @@
     <div class = "container">
         <div class = "flex flex-wrap -mx-4">
             <div class = "w-full lg:w-5/12 px-4">
-                <div class = "hero-content">
-                    <h1 class="text-dark dark:text-slate-200 font-bold text-4xl sm:text-[42px] lg:text-[40px] xl:text-[42px] leading-snug mb-6">
-                        My Name is <span class="rounded-md text-[#2EBFA5]">Sriram</span>.
+                <div class = "text-dark dark:text-slate-200 hero-content">
+                    <h1 class="font-bold text-4xl sm:text-[42px] lg:text-[40px] xl:text-[42px] leading-snug mb-6">
+                        My Name is <span class="rounded-md text-teal-500">Sriram</span>.
                     </h1>
 
                     <p class="text-base mb-8 max-w-[520px]">

@@ -1,4 +1,5 @@
 <div {{ $attributes->class(['flex items-center']) }}>
+    <!-- LinkedIn Icon -->
     <a
         href="https://www.linkedin.com/in/sriramrangan/"
         target="_blank"
@@ -36,6 +37,8 @@
         />
         </svg>
     </a>
+
+    <!--Github Icon-->
     <a
         href="https://github.com/s-rangan"
         target="_blank"
@@ -99,5 +102,42 @@
                 d="M304.2 501.5L158.4 320.3 298.2 185c2.6-2.7 1.7-10.5-5.3-10.5h-69.2c-3.5 0-7 1.8-10.5 5.3L80.9 313.5V7.5q0-7.5-7.5-7.5H21.5Q14 0 14 7.5v497q0 7.5 7.5 7.5h51.9q7.5 0 7.5-7.5v-109l30.8-29.3 110.5 140.6c3 3.5 6.5 5.3 10.5 5.3h66.9q5.25 0 6-3z"
             />
         </svg>
+    </a>
+    <a
+        href="https://public.tableau.com/app/profile/sriram.rangan3331"
+        target="_blank"
+        class="
+            text-dark
+            dark:text-white
+            hover:text-white 
+            hover:bg-primary 
+            hover:border-primary 
+            hover:dark:border-primary
+            mr-3 
+            flex 
+            h-10 
+            w-10 
+            items-center 
+            justify-center 
+            rounded-full 
+            border
+            border-2
+            border-dark
+            dark:border-white 
+            sm:mr-4 
+            lg:mr-3 
+            xl:mr-4
+        "
+    >
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="22px" height="22px" class="fill-current">
+        <path d="M242.69,340.3h26.62V267.7h67V241.88h-67v-72.6H242.69v72.6H176.54V267.7h66.15Z"/>
+        <path d="M119.26,445.18h22.59V380.64h59.7V360.47h-59.7V295.13H119.26v65.34H59.56v20.17h59.7Z"/>
+        <path d="M370.15,212h22.59V147.5h60.5V128.13h-60.5V62.79H370.15v65.34h-59.7V147.5h59.7Z"/>
+        <path d="M246.72,496h19.36V450h41.15V433.08H266.08v-46H246.72v46H206.39V450h40.33Z"/>
+        <path d="M120.07,212h21V146.69h60.51V128.13H141V62.79h-21v65.34H59.56v18.56h60.51Z"/>
+        <path d="M435.72,308.84h19.36V263.66H496V245.92H455.08V200.74H435.72v45.18H395.39v17.74h40.33Z"/>
+        <path fill-rule="evenodd" d="M370.15,445.18h22.59V380.64h60.5V360.47h-60.5V295.13H370.15v65.34h-59.7v20.17h59.7Z"/>
+        <path d="M307,74.08V60.37H266.66V16H252.14V60.37H211.81V74.08h40.33v44.37h14.52V74.08ZM56.11,305.61H70.63V261.24H111V247.53H70.63V204H56.11v43.56H16v14.52L56.11,262Z"/>
+    </svg>
     </a>
 </div>
