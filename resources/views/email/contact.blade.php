@@ -2,18 +2,18 @@
 <table>
   <tr>
     <th>Name</th>
-    <td>{{ $name }}</td>
+    <td>{!! $name !!}</td>
   </tr>
   <tr>
     <th>Email</th>
-    <td>{{ $email }}</td>
+    <td>{!! $email !!}</td>
   </tr>
   <tr>
     <th>Subject</th>
-    <td>{{ $subj }}</td>
+    <td>{!! $subj !!}</td>
   </tr>
 </table>
 
 <div>
-  {{$body}}
+  {!! $body !!}
 </div>

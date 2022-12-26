@@ -19,7 +19,7 @@
                 {{ implode(", ", $categories) }}
             </span>
             <h3 class="font-bold text-lg text-dark dark:text-slate-300 mb-4">
-                {{ $title }}
+                {!! $title !!}
             </h3>
             <x-button-link :href="$link" variant="outline-primary" target="_blank" class="dark:text-slate-300">View Details</x-button-link>
         </div>

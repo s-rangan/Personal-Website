@@ -16,7 +16,7 @@ class Resume extends Component
      * @return void
      */
     public function __construct()
-    {
+    {   
         $this->jobs =[
             [
                 'title' => 'Lab Development Assistant - Machine Health and Remote Monitoring',
@@ -72,7 +72,7 @@ class Resume extends Component
                     'Learned key analytical skills and how to clean and organize data for analysis and
                     complete analysis and calculations using spreadsheets, SQL, and R.',
                     'Visualized and presented data findings in dashboards and presentations with
-                    visualization platforms such as Tableau.', 'Capstone Project: Identified how annual members and casual riders utilize the services
+                    visualization platforms such as Tableau.', '<b>Capstone Project:</b> Identified how annual members and casual riders utilize the services
                     of a bike sharing company differently to model a new marketing
                     strategy aimed at converting casual riders into annual members.',
 
@@ -87,7 +87,7 @@ class Resume extends Component
                     sensors, motors and PID controllers as well as web development, OOP, data
                     manipulation, and IoT.',
                     'Business background in quality assurance, operations management, and project
-                    management.', 'Capstone Project: Developed a virtual tour of the McMaster University Learning Factory
+                    management.', '<b>Capstone Project:</b> Developed a virtual tour of the McMaster University Learning Factory
                     using Unity game engine and deployed it on a Firebase website to
                     showcase the use of virtual reality (VR) in a lab setting.',
 
@@ -121,9 +121,15 @@ class Resume extends Component
                 ]
             ],
             [
+                'category' => 'Office',
+                'skillset' => [
+                    'MS Office', 'MS Project',
+                ]
+            ],
+            [
                 'category' => 'Hardware Programming and Other',
                 'skillset' => [
-                    'Raspberry Pi', 'Arduino', 'ROBOGUIDE', 'LabVIEW', 'Oracle VM (Ubuntu)',
+                    'Raspberry Pi', 'Arduino', 'MQTT', 'LabVIEW', 'Oracle VM (Ubuntu)',
                 ]
             ],
         ];

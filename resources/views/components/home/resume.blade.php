@@ -28,14 +28,21 @@
         
         <div class = "flex flex-wrap -mx-4">
             <div class = "w-full px-4">
-                <div class = "text-center mx-auto mb-[60px] max-w-[510px]">
-                    <h2 class = "font-bold text-3xl sm:text-4xl md:text-[40px] text-dark dark:text-slate-300 mb-4">
+                <div class = "justify-center mx-auto mb-[60px] max-w-[510px] flex">
+                    <!-- Header -->
+                    <h2 class = "font-bold text-center text-3xl sm:text-4xl md:text-[40px] text-dark dark:text-slate-300 mb-2 mr-4">
                         Resume
                     </h2>
-                    <button class="bg-primary hover:bg-opacity-80 text-white font-bold py-2 px-4 rounded inline-flex items-center">
-                        <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
-                        <span>Download</span>
-                    </button>
+
+                    <!-- Download Button -->
+                    <a href="/resumeFile/Resume-SriramRangan.pdf" target="_blank" width="20" height="20" class="text-primary dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800 inline-flex items-center rounded-lg bg-transparent py-3 px-5 text-base font-medium">
+                        <span>
+                            <svg width="32" height="32" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" class="fill-current">
+                                <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+                                <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+                            </svg>
+                        </span>
+                    </a>                
                 </div>
             </div>
         </div> 
@@ -43,7 +50,7 @@
 
         <div class="-mx-4 flex flex-wrap">
             <div class="w-full px-4">
-                <div class="grid grid-cols-3 gap-6">
+                <div class="lg:grid lg:grid-cols-3 gap-6">
                     <!-- Skills and Certification Column -->
                     <div>
                         <!-- Skills Tab -->

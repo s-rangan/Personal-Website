@@ -27,10 +27,10 @@
                     >
                         <ul class="block lg:flex lg:items-center">
                             @foreach($navigationItems as $item)
-                                <x-layout.navbar-item :href="$item['href']">{{ $item['label'] }}</x-layout.navbar-item>
+                                <x-layout.navbar-item :href="$item['href']">{!! $item['label'] !!}</x-layout.navbar-item>
                             @endforeach
                             <div class="ml-0 lg:ml-6 xl:ml-12">
-                                <label for="themeSwitcherOne" class="themeSwitcherTwo shadow-card relative inline-flex cursor-pointer select-none items-center justify-center rounded-md bg-white dark:bg-slate-400 p-1">
+                                <label for="themeSwitcherOne" class="themeSwitcherTwo shadow-card relative inline-flex cursor-pointer select-none items-center justify-center rounded-md bg-white dark:bg-slate-300 p-1">
                                     <input type="checkbox" name="themeSwitcherOne" id="themeSwitcherOne" class="sr-only" :value="darkMode" @change="darkMode = !darkMode"/>
                                     <span class="light text-primary bg-blue-100 flex items-center space-x-[6px] rounded py-2 px-[8px] text-sm font-medium">
                                         <svg width="16" height="16" viewBox="0 0 16 16" class="centered fill-current">

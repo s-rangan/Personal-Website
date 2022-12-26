@@ -11,7 +11,7 @@
             <span
                 class="border-teal-500 dark:bg-teal-500 text-teal-500 dark:text-white m-2 inline-block rounded border py-1 px-3 text-sm font-semibold"
             >
-                {{$skillset}}
+                {!! $skillset !!}
             </span>
         @endforeach
     </div>
