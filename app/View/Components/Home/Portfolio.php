@@ -23,7 +23,7 @@ class Portfolio extends Component
             [
                 'category' => ['R'],
                 'title' => 'Employee Attrition Exercise',
-                'image' => url('/img/projectImgs/employee-attrition1.png'),
+                'image' => url('/img/projectImgs/employee-attrition.png'),
                 'link' => 'https://www.kaggle.com/code/sriramrangan/employee-attrition-exercise'
             ],
             [

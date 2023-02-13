@@ -9,7 +9,7 @@
                     </h1>
 
                     <p class="text-base mb-8 max-w-[520px] dark:text-slate-400">
-                        I am a B. Tech graduate from McMaster University passionate about data analysis and software development. Welcome to my site!
+                        I am passionate about data analysis and software development. Welcome to my site!
                     </p>
 
                     <p class="text-base mb-8 max-w-[520px] dark:text-slate-400">
