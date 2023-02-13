@@ -8,9 +8,12 @@
                         My Name is <span class="rounded-md text-teal-500">Sriram</span>.
                     </h1>
 
-                    <p class="text-base mb-8 max-w-[520px]">
-                        I am passionate about software development and <br/>
-                        data analysis. Welcome to my site! <br>
+                    <p class="text-base mb-8 max-w-[520px] dark:text-slate-400">
+                        I am a B. Tech graduate from McMaster University passionate about data analysis and software development. Welcome to my site!
+                    </p>
+
+                    <p class="text-base mb-8 max-w-[520px] dark:text-slate-400">
+                        My projects and resume can be found on this site. Feel free to check them out and contact me in regards to any of the content posted on this website, or full-time opportunities related to data.
                     </p>
 
                     <ul class="flex flex-wrap items-center">

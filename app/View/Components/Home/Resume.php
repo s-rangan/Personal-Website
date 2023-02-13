@@ -23,15 +23,9 @@ class Resume extends Component
                 'company' => 'McMaster University, Faculty of Engineering',
                 'yr' => 'Jun 2020 - Aug 2020',
                 'description' => [
-                    'Assisted the Bachelor of Technology Program Chair with editing and writing lab
-                    instructions for the Machine Health and Remote Monitoring course to be
-                    suitable for a virtual environment due to the COVID-19 pandemic.',
-                    'Developed lab projects which integrate the use of Raspberry Pi, Arduino, and
-                    MQTT for IoT applications and then documented them into detailed manuals to
-                    be reproduced by students.',
-                    'Employed critical thinking and problem-solving skills in an independent work-from-
-                    home environment when developing projects, cutting time by up to 30%
-                    and beating deadlines.'
+                    'Amended existing lab instructions for the Machine Health and Remote Monitoring course for a virtual environment during the COVID-19 pandemic.',
+                    'Developed new lab projects which integrate the use of Raspberry Pi, Arduino, and MQTT for IoT applications and then documented them into detailed manuals.',
+                    'Optimized project development by cutting time by up to 30% and beating deadlines.'
                 ]
             ],
             [
@@ -39,12 +33,9 @@ class Resume extends Component
                 'company' => 'Empower Health',
                 'yr' => 'Jun 2019 - Aug 2019',
                 'description' => [
-                    'Utilized critical thinking and problem-solving skills to develop Ruby scripts that
-                    would retrieve healthcare practitioner and provider data from various health
-                    websites to help marginalized communities connect to providers.',
-                    'Processed the records of 5000 healthcare practitioners and over 1500 providers
-                    by applying knowledge in HTML, JavaScript, JSON, and Nokogiri to retrieve and
-                    parse data.'
+                    'Developed Ruby scripts that would retrieve healthcare practitioner and provider data from various health websites.',
+                    'Streamlined script development process, thereby reducing average project time from 2.5 weeks to 1 week.',
+                    'Retrieved and process record data for 5000 healthcare practitioners and 1500+ providers by utilizing HTML, JavaScript, JSON, and Nokogiri.'
                 ]
             ],
             [
@@ -52,13 +43,8 @@ class Resume extends Component
                 'company' => 'McMaster University, Faculty of Engineering',
                 'yr' => 'Jan 2018 - Dec 2018',
                 'description' => [
-                    'Gained working knowledge of PHP, HTML, CSS, MySQL and applied that
-                    knowledge to develop an understanding of Laravel 5 and relational databases.',
-                    'Enhanced problem-solving, teamwork, and communication skills by
-                    collaborating with co-workers to troubleshoot programming errors daily.',
-                    'Worked with multi-disciplinary team to develop a web application that marked
-                    CAD assignments submitted by students, with key responsibilities in developing
-                    and assigning roles and permissions.'
+                    'Gained working knowledge of PHP, HTML, CSS, MySQL to develop Laravel projects utilizing MVC structures and relational databases.',
+                    'Worked with multi-disciplinary team to develop a web application that marked CAD assignments submitted by students, with key responsibilities in developing and assigning roles and permissions.'
                 ]
             ],
         ];
@@ -99,7 +85,7 @@ class Resume extends Component
             [
                 'category' => 'Languages',
                 'skillset' => [
-                    'SQL', 'R', 'PHP', 'HTML', 'CSS', 'Python', 'C++', 'Ruby', 'VB',
+                    'SQL', 'R', 'PHP', 'HTML', 'CSS', 'Python', 'C++', 'Ruby',
                 ]
             ],
             [
@@ -129,7 +115,7 @@ class Resume extends Component
             [
                 'category' => 'Hardware Programming and Other',
                 'skillset' => [
-                    'Raspberry Pi', 'Arduino', 'MQTT', 'LabVIEW', 'Oracle VM (Ubuntu)',
+                    'Raspberry Pi', 'Arduino', 'MQTT', 'Oracle VM (Ubuntu)',
                 ]
             ],
         ];

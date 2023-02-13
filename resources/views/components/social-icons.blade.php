@@ -38,7 +38,7 @@
         </svg>
     </a>
 
-    <!--Github Icon-->
+    <!-- Github Icon -->
     <a
         href="https://github.com/s-rangan"
         target="_blank"
@@ -71,6 +71,9 @@
             />
         </svg>
     </a>
+
+    <!-- Kaggle Icon -->
+    <!--
     <a
         href="https://www.kaggle.com/sriramrangan"
         target="_blank"
@@ -103,6 +106,9 @@
             />
         </svg>
     </a>
+    -->
+
+    <!-- Tableau Icon -->
     <a
         href="https://public.tableau.com/app/profile/sriram.rangan3331"
         target="_blank"

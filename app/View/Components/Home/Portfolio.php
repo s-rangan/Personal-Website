@@ -22,9 +22,15 @@ class Portfolio extends Component
         $this->items =[
             [
                 'category' => ['R'],
+                'title' => 'Employee Attrition Exercise',
+                'image' => url('/img/projectImgs/employee-attrition1.png'),
+                'link' => 'https://www.kaggle.com/code/sriramrangan/employee-attrition-exercise'
+            ],
+            [
+                'category' => ['R'],
                 'title' => 'Cyclistic Bike Share Case Study',
                 'image' => url('/img/projectImgs/cyclistic-bike-share.png'),
-                'link' => ''
+                'link' => 'https://www.kaggle.com/code/sriramrangan/cyclistic-bike-share-case-study'
             ],
             [
                 'category' => ['SQL'],

@@ -1,12 +1,13 @@
-<div class="p-8 sm:p-9 md:p-7 xl:p-9">
-    <div class="text-dark dark:text-slate-400 font-bold text-base leading-relaxed">
+<div class="p-7 sm:p-8 md:p-6 xl:p-8">
+    <div class="flow-root dark:text-slate-300 text-dark text-base font-medium">
         <p>
             {!! $name !!}
         </p>
+        <div class="text-body-color dark:text-slate-400  text-base leading-relaxed">
+            <blockquote class="border-l-4 px-3 border-teal-500 list-disc list-outside ml-6">
+                {!! $accredited !!}
+            </blockquote>
+        </div>
     </div>
-    <span class="font-semibold text-lg text-primary mb-2 block">
-        <blockquote class="text-sm text-body-color dark:text-slate-300 py-2 px-3 border-l-4 border-amber-500">
-            {!! $accredited !!}
-        </blockquote>
-    </span>
 </div>
+
