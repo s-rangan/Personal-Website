@@ -16,7 +16,7 @@ class ContactController extends Controller
             'message' => 'required'
         ]);
 
-        Mail::to('sr.rangan@outlook.com')->send(new ContactMail($validated['name'], $validated['email'], $validated['subject'], $validated['message']));
+        Mail::to('sriram@sriram-r.com')->send(new ContactMail($validated['name'], $validated['email'], $validated['subject'], $validated['message']));
 
         // Once validated, email can be sent
         return['success' => true];

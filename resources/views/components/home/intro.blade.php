@@ -13,7 +13,7 @@
                     </p>
 
                     <p class="text-base mb-8 max-w-[520px] dark:text-slate-400">
-                        My projects and resume can be found on this site. Feel free to check them out and contact me in regards to any of the content posted on this website, or full-time opportunities related to data.
+                        My projects and resume can be found on this site. Feel free to check them out and contact me in regard to any of the content posted on this website, or full-time opportunities related to data.
                     </p>
 
                     <ul class="flex flex-wrap items-center">

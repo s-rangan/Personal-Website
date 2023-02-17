@@ -90,6 +90,25 @@
                     </div>
                     <!-- Jobs and Education Column -->
                     <div class="col-span-2">
+                        <!-- Education tab -->
+                        <div class="mb-10 overflow-hidden rounded-lg bg-white dark:bg-slate-800">
+                            <h2 class="bg-primary text-slate-100 p-4 sm:p-5 xl:p-5 uppercase font-bold text-lg xl:text-xl">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="22px" height="22px" class="fill-current inline-block mb-1">
+                                    <path d="M3.33 8L10 12l10-6-10-6L0 6h10v2H3.33zM0 8v8l2-2.22V9.2L0 8zm10 12l-5-3-2-1.2v-6l7 4.2 7-4.2v6L10 20z"/>
+                                </svg>
+                                <span>Education</span>
+                            </h2>
+                            @foreach($schools as $school)
+                                <x-resume-school
+                                    :program="$school['program']"
+                                    :name="$school['name']"
+                                    :yr="$school['yr']"
+                                    :descriptions="$school['description']"
+                                >
+                                </x-resume-school>
+                            @endforeach
+                        </div>
+
                         <!-- Jobs Tab -->
                         <div class="mb-10 overflow-hidden rounded-lg bg-white dark:bg-slate-800">
                             <h2 class="bg-primary text-slate-100 p-4 sm:p-5 xl:p-5 uppercase font-bold text-lg xl:text-xl">
@@ -107,25 +126,6 @@
                                     :descriptions="$job['description']"
                                 >
                                 </x-resume-job>
-                            @endforeach
-                        </div>
-
-                        <!-- Education tab -->
-                        <div class="mb-10 overflow-hidden rounded-lg bg-white dark:bg-slate-800">
-                            <h2 class="bg-primary text-slate-100 p-4 sm:p-5 xl:p-5 uppercase font-bold text-lg xl:text-xl">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="22px" height="22px" class="fill-current inline-block mb-1">
-                                    <path d="M3.33 8L10 12l10-6-10-6L0 6h10v2H3.33zM0 8v8l2-2.22V9.2L0 8zm10 12l-5-3-2-1.2v-6l7 4.2 7-4.2v6L10 20z"/>
-                                </svg>
-                                <span>Education</span>
-                            </h2>
-                            @foreach($schools as $school)
-                                <x-resume-school
-                                    :program="$school['program']"
-                                    :name="$school['name']"
-                                    :yr="$school['yr']"
-                                    :descriptions="$school['description']"
-                                >
-                                </x-resume-school>
                             @endforeach
                         </div>
                     </div>
