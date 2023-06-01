@@ -39,19 +39,19 @@ class Portfolio extends Component
                 'link' => 'https://github.com/s-rangan/PortfolioProjects/blob/main/COVIDdata_Project_Script.sql'
             ],
             [
-                'category' => ['Jupyter Playbook'],
+                'category' => ['Python'],
                 'title' => 'Pokemon Correlation Project',
                 'image' => url('/img/projectImgs/pokemon.jpeg'),
                 'link' => 'https://github.com/s-rangan/PortfolioProjects/blob/main/Pokemon/Pokemon%20Correlation%20Project.ipynb'
             ],
             [
-                'category' => ['Jupyter Playbook'],
+                'category' => ['Python'],
                 'title' => 'Movie Correlation Project',
                 'image' => url('/img/projectImgs/movieCorrelation.webp'),
                 'link' => 'https://github.com/s-rangan/PortfolioProjects/blob/main/Movie%20Correlation%20Project.ipynb'
             ],
             [
-                'category' => ['Jupyter Playbook'],
+                'category' => ['Python'],
                 'title' => 'Nashville Housing Data Cleaning Project',
                 'image' => url('/img/projectImgs/nashville-housing.jpeg'),
                 'link' => 'https://github.com/s-rangan/PortfolioProjects/blob/main/NashvilleHousing_DataCleaning_Project.sql'

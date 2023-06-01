@@ -29,6 +29,9 @@
                             @foreach($navigationItems as $item)
                                 <x-layout.navbar-item :href="$item['href']">{!! $item['label'] !!}</x-layout.navbar-item>
                             @endforeach
+                            <a href="https://github.com/s-rangan/Personal-Website" target="_blank" class="text-xs font-medium text-dark py-2 flex hover:text-primary dark:text-slate-200 lg:inline-flex lg:ml-6 xl:ml-12">
+                                Source Code
+                            </a>
                             <div class="ml-0 lg:ml-6 xl:ml-12">
                                 <label for="themeSwitcherOne" class="themeSwitcherTwo shadow-card relative inline-flex cursor-pointer select-none items-center justify-center rounded-md bg-white dark:bg-slate-300 p-1">
                                     <input type="checkbox" name="themeSwitcherOne" id="themeSwitcherOne" class="sr-only" :value="darkMode" @change="darkMode = !darkMode"/>

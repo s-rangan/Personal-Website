@@ -19,32 +19,35 @@ class Resume extends Component
     {   
         $this->jobs =[
             [
+                'title' => 'Registration Clerk - Emergency Department',
+                'company' => 'Michael Garron Hospital',
+                'yr' => 'Jan 2022 - Present',
+                'description' => [
+                    'Process 100-150 patients daily by coordinating with Nurses, EMS, and Law Enforcement in a dynamic ER environment to oversee patient flow efficiently.',
+                    'Effectively prioritize and manage multiple competing tasks while communicating with relevant staff and patients.',
+                    'Collect patient information with attention to detail and handle the data with care and confidence.',
+                    'Train new staff on required software and hospital procedures.'
+                ]
+            ],
+            [
+                'title' => 'Unit Clerk - Vaccine Clinic',
+                'company' => 'Michael Garron Hospital',
+                'yr' => 'Apr 2021 - Jan 2022',
+                'description' => [
+                    'Elevated to supply management responsibilities; prepared pharmacy and clinical supplies for 5-9 TEHN mobile clinics on a daily basis.',
+                    '70%+ increase in recovered and reused materials from returned clinical supplies.',
+                    'Fulfilled additional roles handling test kits for COVID assessment centres and the school outreach program.',
+                    'Learned various hospital programs such as ESM, Cerner PowerChart, Conversation Launcher, and COVaxON quickly and efficiently.'
+                ]
+            ],
+            [
                 'title' => 'Lab Development Assistant - Machine Health and Remote Monitoring',
                 'company' => 'McMaster University, Faculty of Engineering',
                 'yr' => 'Jun 2020 - Aug 2020',
                 'description' => [
-                    'Amended existing lab instructions for the Machine Health and Remote Monitoring course for a virtual environment during the COVID-19 pandemic.',
-                    'Developed new lab projects which integrate the use of Raspberry Pi, Arduino, and MQTT for IoT applications and then documented them into detailed manuals.',
-                    'Optimized project development by cutting time by up to 30% and beating deadlines.'
-                ]
-            ],
-            [
-                'title' => 'Web Developer Intern',
-                'company' => 'Empower Health',
-                'yr' => 'Jun 2019 - Aug 2019',
-                'description' => [
-                    'Developed Ruby scripts that would retrieve healthcare practitioner and provider data from various health websites.',
-                    'Streamlined script development process, thereby reducing average project time from 2.5 weeks to 1 week.',
-                    'Retrieved and process record data for 5000 healthcare practitioners and 1500+ providers by utilizing HTML, JavaScript, JSON, and Nokogiri.'
-                ]
-            ],
-            [
-                'title' => 'System Analyst/Web Developer',
-                'company' => 'McMaster University, Faculty of Engineering',
-                'yr' => 'Jan 2018 - Dec 2018',
-                'description' => [
-                    'Gained working knowledge of PHP, HTML, CSS, MySQL to develop Laravel projects utilizing MVC structures and relational databases.',
-                    'Worked with multi-disciplinary team to develop a web application that marked CAD assignments submitted by students, with key responsibilities in developing and assigning roles and permissions.'
+                    'Edited and re-wrote instructions for 5 projects to be repurposed for a virtual environment at the onset of the COVID-19 pandemic.',
+                    'Learned to integrate Raspberry Pi, Arduino, and MQTT for IoT applications from scratch within a 1-week period to develop 4 new lab projects demonstrating their applications; optimized project development process resulted in 40% cut in production time.',
+                    'Documented newly developed projects into detail manuals to be reproduced by students in a virtual environment.'
                 ]
             ],
         ];
@@ -58,8 +61,8 @@ class Resume extends Component
                     'Learned key analytical skills and how to clean and organize data for analysis and
                     complete analysis and calculations using spreadsheets, SQL, and R.',
                     'Visualized and presented data findings in dashboards and presentations with
-                    visualization platforms such as Tableau.', '<b>Capstone Project:</b> Identified how annual members and casual riders utilize the services
-                    of a bike sharing company differently to model a new marketing
+                    visualization platforms such as Tableau.', '<b>Capstone Project:</b> Used R Studio to analyze ride patterns of 6 million users
+                    of a bike sharing company to model a new marketing
                     strategy aimed at converting casual riders into annual members.',
 
                 ]
@@ -74,8 +77,7 @@ class Resume extends Component
                     manipulation, and IoT.',
                     'Business background in quality assurance, operations management, and project
                     management.', '<b>Capstone Project:</b> Developed a virtual tour of the McMaster University Learning Factory
-                    using Unity game engine and deployed it on a Firebase website to
-                    showcase the use of virtual reality (VR) in a lab setting.',
+                    using Unity game engine to showcase the use of virtual reality (VR) in a lab setting.',
 
                 ]
             ],
