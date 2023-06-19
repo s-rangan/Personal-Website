@@ -1,5 +1,5 @@
 # Personal-Website
-My [personal website]('https://sriram-r.com/') made with Laravel, Tailwind CSS, and Alpine.js
+My [personal website](https://sriram-r.com/) made with Laravel, Tailwind CSS, and Alpine.js
 
 I am looking to enter the field of data, and have an interest in data analysis and software development.  I made this site to showcase my projects and resume.
 
