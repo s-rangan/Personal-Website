@@ -1,5 +1,7 @@
 # Personal-Website
-My personal website made with Laravel, Tailwind CSS, and Alpine.js
+My [personal website](sriram-r.com) made with Laravel, Tailwind CSS, and Alpine.js
+
+I am looking to enter the field of data, and have an interest in data analysis and software development.  I made this site to showcase my projects and resume.
 
 # Appendix (Laravel, Alpine.js, Tailwind.css, and Tailgrids Docs)
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
