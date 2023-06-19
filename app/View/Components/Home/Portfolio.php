@@ -21,6 +21,12 @@ class Portfolio extends Component
     {
         $this->items =[
             [
+                'category' => ['Python'],
+                'title' => 'Weapons Analysis in The Legend of Zelda: Breath of the Wild',
+                'image' => url('/img/projectImgs/BotW-weapons-analysis.jpg'),
+                'link' => 'https://www.kaggle.com/code/sriramrangan/weapons-analysis-in-the-legend-of-zelda-botw'
+            ],
+            [
                 'category' => ['R'],
                 'title' => 'Employee Attrition Exercise',
                 'image' => url('/img/projectImgs/employee-attrition.png'),
