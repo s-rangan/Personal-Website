@@ -19,17 +19,27 @@ class Resume extends Component
     {   
         $this->jobs =[
             [
+                'title' => 'Bed Allocator',
+                'company' => 'Michael Garron Hospital',
+                'yr' => 'Oct 2023 - Present',
+                'description' => [
+                    'Coordinate patient transfers, both living and deceased, across 15 hospital units comprising over 300 beds.',
+                    'Interface with Clinical Operations Manager and Patient Flow Team streamline patient movement.',
+                    'Oversee the transfer of deceased patients with sensitivity and attention to detail to funeral homes; ensuring process adheres to guidelines between hospital staff and funeral home courier.',
+                    'Maintain communication with unit Charge Nurses and managers, demonstrating adaptability in managing staff needs and competing tasks.'
+                ]
+            ],
+            [
                 'title' => 'Registration Clerk - Emergency Department',
                 'company' => 'Michael Garron Hospital',
                 'yr' => 'Jan 2022 - Present',
                 'description' => [
                     'Process 100-150 patients daily by coordinating with Nurses, EMS, and Law Enforcement in a dynamic ER environment to oversee patient flow efficiently.',
                     'Effectively prioritize and manage multiple competing tasks while communicating with relevant staff and patients.',
-                    'Collect patient information with attention to detail and handle the data with care and confidence.',
-                    'Train new staff on required software and hospital procedures.'
+                    'Conduct patient data collection, data cleaning, and produce charts with adherence to data ethics.'
                 ]
             ],
-            [
+            /*[
                 'title' => 'Unit Clerk - Vaccine Clinic',
                 'company' => 'Michael Garron Hospital',
                 'yr' => 'Apr 2021 - Jan 2022',
@@ -39,7 +49,7 @@ class Resume extends Component
                     'Fulfilled additional roles handling test kits for COVID assessment centres and the school outreach program.',
                     'Learned various hospital programs such as ESM, Cerner PowerChart, Conversation Launcher, and COVaxON quickly and efficiently.'
                 ]
-            ],
+            ],*/
             [
                 'title' => 'Lab Development Assistant - Machine Health and Remote Monitoring',
                 'company' => 'McMaster University, Faculty of Engineering',
@@ -56,7 +66,7 @@ class Resume extends Component
             [
                 'program' => 'Google Data Analytics Professional Certificate',
                 'name' => 'Coursera',
-                'yr' => 'Mar 2022 - Sep 2022',
+                'yr' => 'Sep 2022',
                 'description' => [
                     'Learned key analytical skills and how to clean and organize data for analysis and
                     complete analysis and calculations using spreadsheets, SQL, and R.',
@@ -70,7 +80,7 @@ class Resume extends Component
             [
                 'program' => 'Bachelor of Technology (Co-op) - Automation Engineering Technology',
                 'name' => 'McMaster University',
-                'yr' => 'Sep 2015 - Dec 2020',
+                'yr' => 'Jun 2021',
                 'description' => [
                     'Technical background with controls and hardware automation such as electric
                     sensors, motors and PID controllers as well as web development, OOP, data
